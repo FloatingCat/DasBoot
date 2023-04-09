@@ -3,5 +3,6 @@ tags={
 	"Spaceships"
 }
 name="DasBoot"
-supported_version="3.7.*"
 picture="thumbnail.png"
+supported_version="3.7.*"
+remote_file_id="2959969072"

@@ -10,6 +10,7 @@ tech_das_boot_extra_large_new_section_template_ex = {
 			title = "tech_das_boot_extra_large_new_section_template_ex_1_title"
 		}
 	}
+	icon = "tech_archaeo_titan_beam"
 	ai_weight = {
 		factor = 100
 	}
@@ -27,6 +28,7 @@ tech_das_boot_extra_large_new_section_template_castle = {
 			title = "tech_das_boot_extra_large_new_section_template_castle_desc_1_title"
 		}
 	}
+	icon = "tech_titan_hull_2"
 	ai_weight = {
 		factor = 100
 	}
