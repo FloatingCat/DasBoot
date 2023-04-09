@@ -1,0 +1,31 @@
+spriteTypes = {
+	#####################################################################
+	#小图标
+	#####################################################################
+
+	#工业小图标
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_das_boot_super_battleship"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_das_boot_super_battleship.dds"
+	}
+
+
+	#####################################################################
+	#背景图
+	#####################################################################
+	#工业背景图
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_das_boot_super_battleship"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_das_boot_super_battleship.dds"
+	}
+
+	#####################################################################
+	#飘带图
+	#####################################################################
+	#工业飘带
+	spriteType = { #橙色
+		name = "GFX_tradition_hex_bg_tradition_das_boot_super_battleship"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_prosperity.dds"
+	}
+
+}

@@ -1,0 +1,33 @@
+tech_das_boot_extra_large_new_section_template_ex = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	is_rare = yes
+	prereqfor_desc = {
+		custom = {
+			title = "tech_das_boot_extra_large_new_section_template_ex_1_title"
+		}
+	}
+	ai_weight = {
+		factor = 100
+	}
+}
+
+tech_das_boot_extra_large_new_section_template_castle = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	is_rare = yes
+	prereqfor_desc = {
+		custom = {
+			title = "tech_das_boot_extra_large_new_section_template_castle_desc_1_title"
+		}
+	}
+	ai_weight = {
+		factor = 100
+	}
+}

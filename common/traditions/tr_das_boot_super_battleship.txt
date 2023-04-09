@@ -1,0 +1,111 @@
+tr_das_boot_super_battleship_adopt = {
+    possible = {
+        has_technology = tech_titans
+    }
+    modifier = {
+        shipsize_corvette_build_speed_mult = -0.1
+        shipsize_destroyer_build_speed_mult = -0.1
+        shipsize_cruiser_build_speed_mult = -0.1
+        shipsize_battleship_build_speed_mult = +0.1
+        shipsize_titan_build_speed_mult = +0.1
+        shipsize_offspring_corvette_build_speed_mult = -0.1
+        shipsize_offspring_destroyer_build_speed_mult = -0.1
+        shipsize_offspring_cruiser_build_speed_mult = -0.1
+        shipsize_offspring_battleship_build_speed_mult = +0.1
+        shipsize_frigate_build_speed_mult = -0.1
+    }
+}
+
+tr_das_boot_super_battleship_finish = {
+    on_enabled = {
+        add_research_option = tech_das_boot_extra_large_new_section_template_castle
+        add_research_option = tech_das_boot_extra_large_new_section_template_ex
+    }
+    modifier = {
+        ascension_perks_add = 1
+    }
+}
+
+tr_das_boot_super_battleship_1 = {
+    modifier = {
+        shipsize_battleship_hull_mult = +0.2
+        shipsize_battleship_tracking_mult = +0.1
+
+    }
+    ai_weight = {
+        factor = 1000
+    }
+}
+
+tr_das_boot_super_battleship_2 = {
+    modifier = {
+        starbase_shipyard_build_speed_mult = 0.2
+    }
+    ai_weight = {
+        factor = 5000
+    }
+}
+tr_das_boot_super_battleship_3 = {
+    possible = {
+        has_tradition = tr_das_boot_super_battleship_1
+    }
+    modifier = {
+        planet_metallurgists_alloys_produces_add = 0.5
+    }
+    tradition_swap = {
+        name = tr_tt_industry_3_hive
+        inherit_effects = no
+        inherit_icon = yes
+        inherit_name = no
+        trigger = {
+            is_hive_empire = yes
+        }
+        modifier = {
+            planet_metallurgists_alloys_produces_add = 0.5
+        }
+        weight = {
+            factor = 1
+        }
+    }
+    tradition_swap = {
+        name = tr_tt_industry_3_machine
+        inherit_effects = no
+        inherit_icon = yes
+        inherit_name = no
+        trigger = {
+            is_machine_empire = yes
+        }
+        modifier = {
+            planet_metallurgists_alloys_produces_add = 0.5
+        }
+        weight = {
+            factor = 1
+        }
+    }
+    ai_weight = {
+        factor = 5000
+    }
+}
+tr_das_boot_super_battleship_4 = {
+    possible = {
+        AND = {
+            has_tradition = tr_das_boot_super_battleship_3
+            has_tradition = tr_das_boot_super_battleship_5
+        }
+    }
+    modifier = {
+        shipsize_battleship_hull_mult = +0.2
+        shipsize_titan_hull_mult = +0.5
+    }
+    ai_weight = {
+        factor = 5000
+    }
+}
+tr_das_boot_super_battleship_5 = {
+    possible = {
+        has_tradition = tr_das_boot_super_battleship_2
+    }
+    modifier = {
+        starbase_shipyard_build_cost_mult = -0.1
+    }
+}

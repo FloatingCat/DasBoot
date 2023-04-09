@@ -1,0 +1,25 @@
+spriteTypes = {
+	#工业
+	#################################################
+	spriteType = {
+		name = "GFX_tr_das_boot_super_battleship_1"
+		textureFile = "gfx/interface/icons/traditions/tradition_das_boot_super_battleship_1.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_das_boot_super_battleship_2"
+		textureFile = "gfx/interface/icons/traditions/tradition_das_boot_super_battleship_2.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_das_boot_super_battleship_3"
+		textureFile = "gfx/interface/icons/traditions/tradition_das_boot_super_battleship_3.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_das_boot_super_battleship_4"
+		textureFile = "gfx/interface/icons/traditions/tradition_das_boot_super_battleship_4.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_das_boot_super_battleship_5"
+		textureFile = "gfx/interface/icons/traditions/tradition_das_boot_super_battleship_5.dds"
+	}
+	#################################################
+}

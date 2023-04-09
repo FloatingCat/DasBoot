@@ -1,0 +1,96 @@
+@corvette_section_cost = 40
+@destroyer_section_cost = 40
+@cruiser_section_cost = 50
+@battleship_section_cost = 90
+
+#战列舰battleship T槽舰艏
+ship_section_template = {
+	key = "DB_BATTLESHIP_T_BOW_1"
+	ship_size = battleship
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "battleship_bow_XL1_entity"
+	icon = "GFX_ship_part_core_bow"
+	prerequisites = { tech_das_boot_extra_large_new_section_template_ex }
+	ai_tags = { artillery }
+	component_slot = {
+		name = "T1" template = "invisible_titanic_fixed" locatorname = "xl_gun_01"
+	}
+	ship_modifier = {
+		ship_speed_reduction = 0.1
+	}
+	resources = {
+		category = ship_sections
+		cost = { alloys = 150 }
+	}
+}
+
+#战列舰battleship X槽核心
+ship_section_template = {
+	key = "DB_BATTLESHIP_MID_X_1"
+	ship_size = battleship
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "battleship_mid_L3_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { artillery }
+	component_slot = { name = "X1" template = "extra_large_turret" locatorname = "xl_gun_01" }
+	prerequisites = { tech_das_boot_extra_large_new_section_template_ex }
+	ship_modifier = {
+		ship_speed_reduction = 0.1
+	}
+	large_utility_slots = 8
+	resources = {
+		category = ship_sections
+		cost = { alloys = @battleship_section_cost }
+	}
+}
+
+#战列舰battleship 堡垒核心
+ship_section_template = {
+	key = "DB_BATTLESHIP_MID_X_2"
+	ship_size = battleship
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "battleship_mid_L3_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { artillery }
+	ship_modifier = {
+		ship_fire_rate_mult = 0.33
+		ship_accuracy_mult = 0.33
+		ship_hull_add = 3000
+		ship_speed_reduction = 0.1
+	}
+	component_slot = { name = "P1" template = "point_defence_turret" locatorname = "small_gun_01" }
+	component_slot = { name = "P2" template = "point_defence_turret" locatorname = "small_gun_02" }
+	component_slot = { name = "P3" template = "point_defence_turret" locatorname = "small_gun_03" }
+	component_slot = { name = "P4" template = "point_defence_turret" locatorname = "small_gun_04" }
+	prerequisites = { tech_das_boot_extra_large_new_section_template_castle }
+	large_utility_slots = 12
+	aux_utility_slots = 8
+	resources = {
+		category = ship_sections
+		cost = { alloys = 400 }
+	}
+}
+
+#战列舰battleship X槽尾部
+ship_section_template = {
+	key = "DB_BATTLESHIP_STERN_X_1"
+	ship_size = battleship
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "battleship_stern_L1_entity"
+	icon = "GFX_ship_part_core_stern"
+	prerequisites = { tech_das_boot_extra_large_new_section_template_ex }
+	ai_tags = { artillery }
+	component_slot = { name = "X1" template = "extra_large_turret" locatorname = "xl_gun_01" }
+	ship_modifier = {
+		ship_speed_reduction = 0.1
+	}
+	aux_utility_slots = 4
+	resources = {
+		category = ship_sections
+		cost = { alloys = @battleship_section_cost }
+	}
+}

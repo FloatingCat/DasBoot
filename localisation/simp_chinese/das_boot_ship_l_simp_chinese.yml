@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+  tech_das_boot_extra_large_new_section_template_ex:0"大型战舰§R熔火§!区段设计蓝图"
+  tech_das_boot_extra_large_new_section_template_ex_desc:0"口径即正义"
+  tech_das_boot_extra_large_new_section_template_ex_1_title:0"解锁战列舰及以及更大战舰的舰船区段 §R熔火§!"
+  tech_das_boot_extra_large_new_section_template_castle: "大型战舰§G堡垒§!区段设计蓝图"
+  tech_das_boot_extra_large_new_section_template_castle_desc: "笨重即自由"
+  tech_das_boot_extra_large_new_section_template_castle_desc_1_title:0"解锁战列舰及以及更大战舰的舰船区段 §G堡垒§!"
+
+  tr_das_boot_super_battleship_adopt: "决战计划"
+  tr_das_boot_super_battleship_finish: "决战计划完成"
+
+  DB_BATTLESHIP_T_BOW_1: "熔火舰艏"
+  DB_BATTLESHIP_MID_X_1: "熔火核心"
+  DB_BATTLESHIP_MID_X_2: "通讯堡垒核心"
+  DB_BATTLESHIP_STERN_X_1: "熔火舰艉"
+
+  tradition_das_boot_super_battleship: "决战学说"
+  tradition_das_boot_super_battleship_desc: "“完美无缺”的战术被高估了，火力强大而“可堪一用”的决战舰队才能将我军导向胜利！"
+  tr_das_boot_super_battleship_1: "存在舰队"
+  tr_das_boot_super_battleship_2: "优势火力规划"
+  tr_das_boot_super_battleship_3: "主力舰袭击"
+  tr_das_boot_super_battleship_4: "移动堡垒"
+  tr_das_boot_super_battleship_5: "大作战舰队"
