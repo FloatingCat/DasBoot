@@ -14,6 +14,8 @@
   DB_BATTLESHIP_MID_X_2: "通讯堡垒核心"
   DB_BATTLESHIP_STERN_X_1: "熔火舰艉"
 
+  DB_FRIGATE_MID_M1: "樱"
+
   tradition_das_boot_super_battleship: "决战学说"
   tradition_das_boot_super_battleship_desc: "“完美无缺”的战术被高估了，火力强大而“可堪一用”的决战舰队才能将我军导向胜利！"
   tr_das_boot_super_battleship_1: "存在舰队"
