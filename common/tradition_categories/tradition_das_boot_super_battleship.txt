@@ -4,7 +4,7 @@ tradition_das_boot_super_battleship = {
 	finish_bonus = "tr_das_boot_super_battleship_finish"
 	traditions = {
 		"tr_das_boot_super_battleship_1"
-		"tr_das_boot_super_battleship_2"
+		"tr_das_centralized_fire_control"
 		"tr_das_boot_super_battleship_3"
 		"tr_das_boot_super_battleship_4"
 		"tr_das_boot_super_battleship_5"

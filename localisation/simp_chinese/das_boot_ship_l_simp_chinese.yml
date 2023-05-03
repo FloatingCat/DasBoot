@@ -6,8 +6,8 @@
   tech_das_boot_extra_large_new_section_template_castle_desc: "笨重即自由"
   tech_das_boot_extra_large_new_section_template_castle_desc_1_title:0"解锁战列舰及以及更大战舰的舰船区段 §G堡垒§!"
 
-  tr_das_boot_super_battleship_adopt: "决战计划"
-  tr_das_boot_super_battleship_finish: "决战计划完成"
+  tr_das_boot_super_battleship_adopt: "火力优势"
+  tr_das_boot_super_battleship_finish: "火力优势完成"
 
   DB_BATTLESHIP_T_BOW_1: "熔火舰艏"
   DB_BATTLESHIP_MID_X_1: "熔火核心"
@@ -16,10 +16,10 @@
 
   DB_FRIGATE_MID_M1: "樱"
 
-  tradition_das_boot_super_battleship: "决战学说"
-  tradition_das_boot_super_battleship_desc: "“完美无缺”的战术被高估了，火力强大而“可堪一用”的决战舰队才能将我军导向胜利！"
-  tr_das_boot_super_battleship_1: "存在舰队"
-  tr_das_boot_super_battleship_2: "优势火力规划"
-  tr_das_boot_super_battleship_3: "主力舰袭击"
-  tr_das_boot_super_battleship_4: "移动堡垒"
+  tradition_das_boot_super_battleship: "火力优势"
+  tradition_das_boot_super_battleship_desc: "人命关天，但舰船价廉"
+  tr_das_boot_super_battleship_1: "提高大型舰船地位"
+  tr_das_centralized_fire_control: "集中火力管制"
+  tr_das_boot_super_battleship_3: "海军武器系统整备"
+  tr_das_boot_super_battleship_4: "海上堡垒"
   tr_das_boot_super_battleship_5: "大作战舰队"

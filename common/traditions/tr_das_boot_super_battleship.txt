@@ -28,38 +28,44 @@ tr_das_boot_super_battleship_finish = {
 
 tr_das_boot_super_battleship_1 = {
     modifier = {
-        shipsize_battleship_build_speed_mult = 0.2
-        shipsize_titan_build_speed_mult = 0.2
+        shipsize_battleship_build_speed_mult = 0.1
+        shipsize_titan_build_speed_mult = 0.1
     }
     ai_weight = {
         factor = 1000
     }
 }
 
-tr_das_boot_super_battleship_2 = {
+# 集中火力管制
+tr_das_centralized_fire_control = {
     modifier = {
+        ship_accuracy_mult = 0.2
+        ship_fire_rate_mult = 0.1
+    }
+    ai_weight = {
+        factor = 5000
+    }
+}
 
+# 海军武器系统整备
+# 循环科技每层5%武器类型增伤，这里提供20% = 4*（武器种类）次循环科技
+tr_das_boot_super_battleship_3 = {
+    possible = {
+        has_tradition = tr_das_centralized_fire_control
+        has_tradition = tr_das_boot_super_battleship_5
+    }
+    modifier = {
+        ship_weapon_range_mult = 0.1
         ship_weapon_damage = 0.2
     }
     ai_weight = {
         factor = 5000
     }
 }
-tr_das_boot_super_battleship_3 = {
-    possible = {
-        has_tradition = tr_das_boot_super_battleship_1
-    }
-    modifier = {
-        ship_weapon_range_mult = 0.2
-    }
-    ai_weight = {
-        factor = 5000
-    }
-}
+
 tr_das_boot_super_battleship_4 = {
     possible = {
         AND = {
-            has_tradition = tr_das_boot_super_battleship_3
             has_tradition = tr_das_boot_super_battleship_5
         }
     }
@@ -71,9 +77,11 @@ tr_das_boot_super_battleship_4 = {
         factor = 5000
     }
 }
+
+
 tr_das_boot_super_battleship_5 = {
     possible = {
-        has_tradition = tr_das_boot_super_battleship_2
+        has_tradition = tr_das_centralized_fire_control
     }
     modifier = {
         starbase_shipyard_build_cost_mult = -0.1
